@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fit-analysis-extractor"
+version = "2.1.0"
+description = "Extract a FIT file into full.json and normalized analysis.json"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Jozsef Kercso", email = "kercsoj@gmail.com" }]
+keywords = ["fit", "garmin", "fitness", "running", "cycling", "workout"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+  "Environment :: Console",
+]
+dependencies = [
+  "garmin-fit-sdk>=21.208.0,<22",
+]
+
+[project.urls]
+Homepage = "https://github.com/kercsoj/fit_extractor"
+Repository = "https://github.com/kercsoj/fit_extractor"
+Issues = "https://github.com/kercsoj/fit_extractor/issues"
+
+[project.scripts]
+fit-extract = "fit_extractor:main"
+
+[tool.setuptools]
+py-modules = ["fit_extractor"]

@@ -1,0 +1,26 @@
+{
+  "weather": {
+    "temperature_c": 22.4,
+    "humidity_pct": 71,
+    "wind_speed_m_s": 0,
+    "pressure_hpa": 1012.3
+  },
+  "hydration": {
+    "weight_before_kg": 84.2,
+    "weight_after_kg": 83.0,
+    "fluid_during_ml": 0,
+    "urine_during_ml": 0
+  },
+  "nutrition": {
+    "carbohydrate_during_g": 0,
+    "caffeine_before_mg": null,
+    "coffee_before": true
+  },
+  "electrolytes": {
+    "sodium_during_mg": 0,
+    "potassium_during_mg": 0,
+    "magnesium_during_mg": 0
+  },
+  "perceived_effort_1_to_10": null,
+  "notes": "The first section descended slightly; the return section climbed slightly."
+}
